@@ -14,13 +14,9 @@ namespace RedisExampleApp_Apı
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.Entity<Product>().HasData(
-				new Product() { ıd = 1, Name = "Kalem", Price = 100 },
-				new Product() { ıd = 2, Name = "silgi", Price = 100 } ,
-				new Product() { ıd = 3, Name = "pc", Price = 100 }
-
-
-
-
+				new Product() { Id = 1, Name = "Kalem", Price = 100 },
+				new Product() { Id = 2, Name = "silgi", Price = 100 } ,
+				new Product() { Id = 3, Name = "pc", Price = 100 }
 				);
 		}
 	}
