@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AO8WI4eekbJhthf6Soo3Bw0goX88bXZS0NX4JQUA/E4epfCY1iV+jOj6nTzPAlbegU8FliHDyT+ExI6cmcFXCQ==",
+  "dgSpecHash": "zQIGiNYSj4E8Wl0tIWELi6/5uvlGZtyObHQDVNKsU3BDqZ2FhKRzu/p+wTCoz1gMt3VdXvR06/xKs34O+WwMjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\burak.ipekci\\Documents\\GitHub\\RedisExample\\RedisExampleApp-Apı\\RedisExampleApp-Apı\\RedisExampleApp-Apı.csproj",
   "expectedPackageFiles": [
@@ -19,10 +19,13 @@
     "C:\\Users\\burak.ipekci\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\burak.ipekci\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\burak.ipekci\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\burak.ipekci\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\burak.ipekci\\.nuget\\packages\\stackexchange.redis\\2.6.122\\stackexchange.redis.2.6.122.nupkg.sha512",
     "C:\\Users\\burak.ipekci\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\burak.ipekci\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\burak.ipekci\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\burak.ipekci\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "C:\\Users\\burak.ipekci\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\burak.ipekci\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Redis.Cache;
 using RedisExampleApp_Apı.Models;
 using RedisExampleApp_Apı.Repository;
+using StackExchange.Redis;
 using System.Xml.Linq;
 
 namespace RedisExampleApp_Apı.Controllers
@@ -11,12 +13,14 @@ namespace RedisExampleApp_Apı.Controllers
 	public class ProductsController : ControllerBase
 	{
 		private readonly IProductRepository _productRepository;
+	
 
 		public ProductsController(IProductRepository productRepository)
 		{
 			_productRepository = productRepository;
-		}
 		
+		}
+
 		[Microsoft.AspNetCore.Mvc.HttpGet(Name = "GetAll")]
 		public async Task<IActionResult> GetAll()
 		{
