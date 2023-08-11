@@ -34,3 +34,7 @@ C:\Users\burak.ipekci\Documents\GitHub\RedisExample\RedisExampleApp-Apı\RedisEx
 C:\Users\burak.ipekci\Documents\GitHub\RedisExample\RedisExampleApp-Apı\RedisExampleApp-Apı\obj\Debug\net7.0\RedisExampleApp-Apı.pdb
 C:\Users\burak.ipekci\Documents\GitHub\RedisExample\RedisExampleApp-Apı\RedisExampleApp-Apı\obj\Debug\net7.0\RedisExampleApp-Apı.genruntimeconfig.cache
 C:\Users\burak.ipekci\Documents\GitHub\RedisExample\RedisExampleApp-Apı\RedisExampleApp-Apı\obj\Debug\net7.0\ref\RedisExampleApp-Apı.dll
+C:\Users\burak.ipekci\Documents\GitHub\RedisExample\RedisExampleApp-Apı\RedisExampleApp-Apı\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\burak.ipekci\Documents\GitHub\RedisExample\RedisExampleApp-Apı\RedisExampleApp-Apı\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\burak.ipekci\Documents\GitHub\RedisExample\RedisExampleApp-Apı\RedisExampleApp-Apı\bin\Debug\net7.0\Redis.Cache.dll
+C:\Users\burak.ipekci\Documents\GitHub\RedisExample\RedisExampleApp-Apı\RedisExampleApp-Apı\bin\Debug\net7.0\Redis.Cache.pdb

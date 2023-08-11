@@ -2,6 +2,7 @@
 using Redis.Cache;
 using RedisExampleApp_Apı;
 using RedisExampleApp_Apı.Repository;
+using RedisExampleApp_Apı.Services;
 using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,13 +16,21 @@ builder.Services.AddSingleton<RedisService>(sp =>
 	return new RedisService(builder.Configuration["CacheOptions:Url"]);
 
 });
+builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddSingleton<IDatabase>(sp =>
 {
 	var redisService = sp.GetRequiredService<RedisService>();
 	var redis = redisService.GetDb(0);
 	return redis;
 });
-builder.Services.AddScoped<IProductRepository,ProductRepository>();
+builder.Services.AddScoped<IProductRepository>(sp =>
+{
+	var appDbContext=sp.GetRequiredService<AppDbContext>();
+	var productRepo= new ProductRepository(appDbContext);
+	var redisService = sp.GetRequiredService<RedisService>();
+
+	return new ProductRepositoryWithCacheDecorator(productRepo, redisService);
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
